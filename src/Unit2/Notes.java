@@ -19,5 +19,30 @@ difference between static and stuff
 what is static when use static when not use static
 private modifier?
 OOP?
+constructor: is a method which is used to instantiate an object
+compareTo() lexicographic order?????
+upper case letters are smaller than lower case letters G<g
+differences between primitive and reference
+
+Unit 2
+Method signature: A method signature for a method consists of the method name and the ordered, possibly
+empty, list of parameter types.
+Method returns: Methods in java can have return types. Such non-void methods return value back that can
+be used by the program. A method can use the keyboard "return" to return a value.
+Wrong: public void output(){
+    System.out.println("Hello");
+    }
+    System.out.println(output()) is wrong
+Return: to send out a value as the result of a method
+The opposide of a parameter:
+-Parameters send information in from the caller to the method
+-Return values send information out from a method to its called
+-A call to the method can be used as part of an expression
+Common error happening to students: Many students forget to store the result of a method call
+
+Escape Sequences: A special sequence of characters used to represent certain special characters
+in a string. \n new line character
+\" quotation mark character
+\\ backslash character
      */
 }

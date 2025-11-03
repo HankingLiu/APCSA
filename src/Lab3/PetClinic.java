@@ -9,8 +9,8 @@ public class PetClinic {
     pet1.makeSound();
     pet2.makeSound();
     pet1.setAge(6);
-    System.out.println(pet1.getName() + " is now" + pet1.getAge() + " years old");
-    pet1.setWeight(-10);
-    System.out.println(pet1.getName() + " is now" + pet1.getWeight() + " lbs" );
+    System.out.println(pet1.getName() + " is now " + pet1.getAge() + " years old");
+    pet1.setWeight(10);
+    System.out.println(pet1.getName() + " is now " + pet1.getWeight() + " lbs" );
     }
 }
