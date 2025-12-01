@@ -24,5 +24,9 @@ Perform initialization once,
 
 Update
 Update the loop variable
+
+
+Iteration: Nested Loops
+computational complexity
      */
 }
