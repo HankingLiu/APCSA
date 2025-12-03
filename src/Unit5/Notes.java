@@ -22,7 +22,14 @@ Instance variables
 Four types of access modifiers: private, default, protected, public
 
 
-
 If a class has no constructor, Java gives it a default constructor with no parameters that sets all integer
 fields to 0, booleans to false, Strings to null, etc.
+
+Static VS Non-static(Instance)
+Non-static or instance: Part of an object, rather than shared by the class. Non-static methods are called using
+the dot operator along with the object variable name.
+
+Static: Part of a class, rather than part of an object. Not copied into each object; shared by all objects
+of that class. Static methods are called using the dot operator along with the class name unless they are defined
+in the enclosing class.
  */
