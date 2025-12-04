@@ -32,5 +32,20 @@ public class Car {
     public Car(String color, String model, int year){
         this(color, model, year, "Vin"+(totalCars+1));
     }
+    public static int getTotalCars(){
+        return totalCars;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Total cars at start: " + Car.getTotalCars());
+        Car car1 = new Car ("Blue", "Toyota", 2000);
+        Car car2 = new Car("Red", "Ferrari", 1989);
+        Car car3 = new Car("Black", "Lambo", 2025);
+
+        System.out.println(car1);
+        System.out.println(car2);
+        System.out.println(car3);
+        System.out.println("Total cars created: "+ Car.getTotalCars());
+    }
 }
 
